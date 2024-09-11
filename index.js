@@ -126,5 +126,10 @@ function getEvens(numbers) {
  */
 function getOdds(numbers) {
  const output = [];
- 
+ for (Const n of numbers){
+  if (n % 2 === 1){
+    output.push(n);
+  }
+ }
+ return output;
 }
