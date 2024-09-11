@@ -7,18 +7,19 @@ const userInputString = prompt(
   "1,2,3,4,5"
 );
 
+
 // Split the string of numbers into an array of strings.
 const stringArray = userInputString.split(",");
 
 // Convert the array of strings into an array of numbers.
-const numbers = [];
+const numbers = []; 
 for (let i = 0; i < stringArray.length; i++) {
   const str = stringArray[i];
   const number = parseInt(str);
   numbers.push(number);
 }
 
-// Peform some calculations on the numbers.
+// Perform some calculations on the numbers.
 console.log(numbers);
 console.log(`You have given ${getLength(numbers)} numbers.`);
 console.log(`The sum of your numbers is ${getSum(numbers)}.`);
@@ -37,7 +38,8 @@ console.log(`The odd numbers you gave are ${getOdds(numbers)}.`);
  * @returns {number} the length of the array
  */
 function getLength(numbers) {
-  // TODO
+  const number[1,2,3,4,5,6]
+  
 }
 
 /**
