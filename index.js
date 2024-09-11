@@ -108,5 +108,8 @@ function getEvens(numbers) {
  * @returns {number[]} the odd numbers in the array
  */
 function getOdds(numbers) {
-  
+  const numbers [1,2,3,4]
+  let i=1
+  while getOdds=numbers+i
+  return i+getOdds
 }
