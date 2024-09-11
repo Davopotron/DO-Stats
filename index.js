@@ -55,8 +55,8 @@ function getSum(numbers){
     let sum = 0;
     let i = 0;
     while (i < numbers.length) {
-      const number = numbers[i];
-      sum += number;
+      const n = numbers[i];
+      sum += n;
       i += 1;
     }
     return sum;
@@ -67,7 +67,7 @@ function getSum(numbers){
  * @param {number[]} numbers an array of integers
  * @returns {number} the mean of the numbers
  */
-function getMean(1,2,3,4) {
+function getMean(numbers) {
  const sum = getSum(numbers);
  return sum / numbers.length;
 }
@@ -79,7 +79,7 @@ function getMean(1,2,3,4) {
 function getMin(numbers) {
   let min = Infinity;
   for (const n of numbers)
-    if (n<min) {
+    if (n < min) {
       min=n;
     }
     return min;
@@ -91,8 +91,13 @@ function getMin(numbers) {
  */
 function getMax(numbers) {
   let max = -Infinity;
-  for (const n of numbers) {}
-
+  for (const n of numbers) {
+    if (n > max) {
+      max = n;
+    }
+  }
+  return
+}
 /**
  * @param {number[]} numbers an array of integers
  * @returns {number} the range of the numbers (max - min)
