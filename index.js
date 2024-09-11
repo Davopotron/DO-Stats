@@ -7,18 +7,19 @@ const userInputString = prompt(
   "1,2,3,4,5"
 );
 
+
 // Split the string of numbers into an array of strings.
 const stringArray = userInputString.split(",");
 
 // Convert the array of strings into an array of numbers.
-const numbers = [];
+const numbers = []; 
 for (let i = 0; i < stringArray.length; i++) {
   const str = stringArray[i];
   const number = parseInt(str);
   numbers.push(number);
 }
 
-// Peform some calculations on the numbers.
+// Perform some calculations on the numbers.
 console.log(numbers);
 console.log(`You have given ${getLength(numbers)} numbers.`);
 console.log(`The sum of your numbers is ${getSum(numbers)}.`);
@@ -36,24 +37,29 @@ console.log(`The odd numbers you gave are ${getOdds(numbers)}.`);
  * @param {number[]} numbers an array of integers
  * @returns {number} the length of the array
  */
-function getLength(numbers) {
-  // TODO
+function getLength(numbers===1,2,3,4) {
+  let i=0;
+  return getLength=number-i;
 }
 
 /**
- * @param {number[]} numbers an array of integers
+ * @param {number[1,2,3,4]} numbers an array of integers
  * @returns {number} the sum of the numbers
  */
 function getSum(numbers) {
-  // TODO
+  const number(1,2,3,4);
+  let i=0;
+  return getSum===i+number;
 }
 
 /**
  * @param {number[]} numbers an array of integers
  * @returns {number} the mean of the numbers
  */
-function getMean(numbers) {
-  // TODO
+function getMean(1,2,3,4) {
+ let i=0;
+ if getMean/4=i={1,2,3,4}; 
+ return getMean;
 }
 
 /**
@@ -61,7 +67,9 @@ function getMean(numbers) {
  * @returns {number} the smallest of the numbers
  */
 function getMin(numbers) {
-  // TODO
+  const numbers(1,2,3,4)
+  getMin=i=1
+  return getMin [i]
 }
 
 /**
@@ -69,7 +77,10 @@ function getMin(numbers) {
  * @returns {number} the largest of the numbers
  */
 function getMax(numbers) {
-  // TODO
+  numbers [1,2,3,4]
+  getMax([1,2,3,4])
+  let i=4
+  return getMax(i)
 }
 
 /**
@@ -77,7 +88,9 @@ function getMax(numbers) {
  * @returns {number} the range of the numbers (max - min)
  */
 function getRange(numbers) {
-  // TODO
+  getRange(1,2,3,4)
+  while i=1--4
+  return getRange+i
 }
 
 /**
@@ -85,7 +98,9 @@ function getRange(numbers) {
  * @returns {number[]} the even numbers in the array
  */
 function getEvens(numbers) {
-  // TODO
+  Array [1,2,3,4]
+  if i=1+1
+  return getEvens@0+i
 }
 
 /**
@@ -93,5 +108,8 @@ function getEvens(numbers) {
  * @returns {number[]} the odd numbers in the array
  */
 function getOdds(numbers) {
-  // TODO
+  const numbers [1,2,3,4]
+  let i=1
+  while getOdds=numbers+i
+  return i+getOdds
 }
