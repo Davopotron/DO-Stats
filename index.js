@@ -103,7 +103,7 @@ function getMax(numbers) {
  * @returns {number} the range of the numbers (max - min)
  */
 function getRange(numbers) {
-  
+  return getMax(numbers) - getMin(numbers);
 }
 
 /**
@@ -111,10 +111,13 @@ function getRange(numbers) {
  * @returns {number[]} the even numbers in the array
  */
 function getEvens(numbers) {
-  const output = []
+  const output = [];
   for (const n of numbers) {
-    if (n % 2 === 0)
+    if (n % 2 === 0) {
+      output.push(n);
+    }
   }
+  return output;
 }
 
 /**
@@ -122,5 +125,6 @@ function getEvens(numbers) {
  * @returns {number[]} the odd numbers in the array
  */
 function getOdds(numbers) {
+ const output = [];
  
 }
